@@ -1,0 +1,11 @@
+node_modules/
+dist/
+coverage/
+*.log
+.DS_Store
+.env
+.env.local
+*.tsbuildinfo
+
+# Keep bun.lockb for reproducible builds
+# bun.lockb is tracked in git

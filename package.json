@@ -1,0 +1,80 @@
+{
+  "name": "himanshuchandola",
+  "version": "0.0.0-development",
+  "description": "Interactive CLI portfolio for Himanshu Chandola - A delightful terminal experience",
+  "type": "module",
+  "bin": {
+    "himanshuchandola": "./dist/index.js"
+  },
+  "main": "./dist/index.js",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "dev": "tsup --watch",
+    "build": "tsup",
+    "start": "node dist/index.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "type-check": "tsc --noEmit",
+    "lint": "biome check .",
+    "lint:fix": "biome check --write .",
+    "format": "biome format --write .",
+    "prepare": "husky",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "cli",
+    "terminal",
+    "interactive",
+    "portfolio",
+    "developer-portfolio",
+    "himanshuchandola",
+    "cli-app"
+  ],
+  "author": {
+    "name": "Himanshu Chandola",
+    "url": "https://himanshuchandola.dev"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/himanshuchandola/himanshuchandola-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/himanshuchandola/himanshuchandola-cli/issues"
+  },
+  "homepage": "https://github.com/himanshuchandola/himanshuchandola-cli#readme",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "boxen": "^8.0.1",
+    "chalk": "^5.6.2",
+    "cli-spinners": "^3.3.0",
+    "figlet": "^1.9.4",
+    "inquirer": "^13.1.0",
+    "open": "^11.0.0",
+    "ora": "^9.0.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.3.11",
+    "@commitlint/cli": "^20.3.0",
+    "@commitlint/config-conventional": "^20.3.0",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^12.0.2",
+    "@types/figlet": "^1.7.0",
+    "@types/inquirer": "^9.0.9",
+    "@types/node": "^25.0.3",
+    "@vitest/coverage-v8": "^4.0.16",
+    "husky": "^9.1.7",
+    "semantic-release": "^25.0.2",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.16"
+  }
+}
