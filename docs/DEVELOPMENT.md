@@ -88,6 +88,21 @@ bun run test:coverage
 3. **Type Safety** - Strict TypeScript with comprehensive type definitions
 4. **Error Handling** - Graceful fallbacks for all error scenarios
 
+## Tech Stack
+- **Runtime**: Node.js / Bun
+- **Language**: TypeScript
+- **Bundler**: tsup
+- **Linter/Formatter**: Biome
+- **Testing**: Vitest
+- **CLI Framework**: Custom implementation
+- **Libraries**:
+    - **Inquirer**: Interactive prompts
+    - **Chalk**: Terminal styling
+    - **Boxen**: Terminal boxes
+    - **Figlet**: ASCII art
+    - **Ora**: Spinners
+    - **Open**: URL handling
+
 ## Build Process
 
 The project uses tsup for building:
