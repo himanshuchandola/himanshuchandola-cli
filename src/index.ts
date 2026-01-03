@@ -33,7 +33,7 @@ async function main(): Promise<void> {
   }
 
   // Handle direct open flag
-  if (flags.open) {
+  if (flags.open && flags.open !== "exit") {
     const url = destinationUrls[flags.open];
     if (url) {
       await safeOpen(url);
