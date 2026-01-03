@@ -1,6 +1,6 @@
 {
   "name": "himanshuchandola",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "Interactive CLI portfolio for Himanshu Chandola - A delightful terminal experience",
   "type": "module",
   "bin": {
