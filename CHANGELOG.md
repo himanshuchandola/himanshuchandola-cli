@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/himanshuchandola/himanshuchandola-cli/compare/v1.0.0...v1.0.1) (2026-01-03)
+
+
+### Bug Fixes
+
+* refresh readme on npm registry ([7cf8c9d](https://github.com/himanshuchandola/himanshuchandola-cli/commit/7cf8c9d50a9c5c62c26def4be133545ce8cf38a5))
+
 # 1.0.0 (2026-01-03)
 
 
