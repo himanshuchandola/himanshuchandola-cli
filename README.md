@@ -2,9 +2,9 @@
 
 Interactive CLI portfolio for Himanshu Chandola - A modern terminal experience built with TypeScript.
 
-[![npm version](https://img.shields.io/npm/v/himanshuchandola.svg)](https://www.npmjs.com/package/himanshuchandola)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.7-blue.svg)](https://www.typescriptlang.org/)
+[![npm version](https://img.shields.io/npm/v/himanshuchandola.svg?style=flat-square)](https://www.npmjs.com/package/himanshuchandola)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.7-blue.svg?style=flat-square)](https://www.typescriptlang.org/)
 
 ## Overview
 
