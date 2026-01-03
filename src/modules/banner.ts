@@ -39,4 +39,3 @@ export async function showBanner(skipAnimation: boolean): Promise<void> {
     console.log(chalk.bold.hex("#667eea")("\n=== Hello There! ===\n"));
   }
 }
-

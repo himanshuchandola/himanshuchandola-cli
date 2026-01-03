@@ -45,4 +45,3 @@ export function showCard(): void {
   console.log(chalk.hex("#8892b0")("\n Welcome to my interactive cli digital space\n"));
   console.log(createCard());
 }
-
