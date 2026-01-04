@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/himanshuchandola/himanshuchandola-cli/compare/v1.0.1...v1.0.2) (2026-01-04)
+
+
+### Bug Fixes
+
+* add demo gif to readme ([da45932](https://github.com/himanshuchandola/himanshuchandola-cli/commit/da459325bf0b0d0ef837a763e4406360664c1dc5))
+
 ## [1.0.1](https://github.com/himanshuchandola/himanshuchandola-cli/compare/v1.0.0...v1.0.1) (2026-01-03)
 
 
